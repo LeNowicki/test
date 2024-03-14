@@ -1,0 +1,113 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.cont{
+    background-color: wheat;
+    color: rgb(53, 52, 52);
+}
+.cont #header nav, .cont #stopka{
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    background-color: darksalmon;
+    color:darkolivegreen;
+    clear: both;
+}
+.cont .res{
+    float:left;
+    width: 45.5%;
+    height: 174px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left:3%;
+    margin-right: 0;
+    border: 3px solid darkolivegreen 
+}
+.cont .res img{
+    float:left;
+    margin-right:10px;
+    border-radius: 10px;
+}
+.cont p{
+    float:left;
+    width: 100%;
+    padding: 10px;
+}
+.cont #header nav button {
+    width: 150px;
+    height: 35%;
+    border: none;
+    border-radius: 15px 15px;
+    margin: 5px;
+    margin-top: 32.5px;
+    margin-right: 15px;
+}
+.cont #header nav button:hover {
+    cursor: pointer;
+}
+.cont #header nav #div_name{
+    margin-top:12px;
+    margin-left:8%;
+    height: 50px;
+    position: absolute;
+    font-size: 350%;
+}
+.cont #header {
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+.cont #header img{
+    height: 100px;
+    float: left;
+}
+.cont #resCont {
+    overflow: hidden;
+}
+.cont #stopka {
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cont .res{
+        float:left;
+        width: 94%;
+        height: 174px;
+        border-radius: 20px;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+        border: 3px solid darkolivegreen 
+    }
+    .cont #resCont .res img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cont #resCont .res img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .cont #header nav {
+        height: 180px;
+    }
+
+    .cont #header nav button {
+        float: left;
+        margin: 4px 0 0 4%;
+        width: 44%;
+        height: 35%;
+    }
+
+    .cont #header nav img {
+        margin: auto;
+        display: block;
+        float: none;
+    }
+}

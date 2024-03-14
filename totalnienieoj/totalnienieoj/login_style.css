@@ -1,0 +1,206 @@
+.cont{
+    padding: 0vh;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: wheat;
+    color: rgb(53, 52, 52);
+}
+body{
+    background-color: wheat;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.cont #header nav, .cont #stopka{
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(233, 150, 122);
+    color:darkolivegreen;
+    clear: both;
+}
+.cont .res{
+    float:left;
+    width: 45.5%;
+    height: 174px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left:3%;
+    margin-right: 0;
+    border: 3px solid darkolivegreen 
+}
+.cont .res img{
+    float:left;
+    margin-right:10px;
+    border-radius: 10px;
+}
+.cont p{
+    float:left;
+    width: 100%;
+    padding: 10px;
+}
+.cont #header nav button {
+    width: 150px;
+    height: 35%;
+    border: none;
+    border-radius: 15px 15px;
+    margin: 5px;
+    margin-top: 32.5px;
+    margin-right: 15px;
+    background-color: lightgoldenrodyellow;
+}
+.cont #header nav button:hover {
+    cursor: pointer;
+}
+.cont #header nav #div_name{
+    margin-top:12px;
+    margin-left:8%;
+    height: 50px;
+    position: absolute;
+    font-size: 350%;
+}
+.cont #header {
+    text-align: left;
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+}
+.cont #header img{
+    height: 100px;
+    float: left;
+}
+.cont #resCont {
+    overflow: hidden;
+}
+.cont #stopka {
+    margin-top: 2%;
+}
+form{
+    height: 450px;
+    padding-top: 55px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgba(233,150,122, 30%);
+    border-radius: 15px 15px;
+}
+form input[type='email'], input[type='password']{
+    border-radius: 15px 15px ;
+    padding: 10px;
+    margin-bottom:5px;
+    width:100%;
+    background-color: lightgoldenrodyellow;
+}
+form #password{
+    text-align: right;
+}
+form #register{
+    text-align: left;
+}
+form input[type="submit"]{
+    width: 69%;
+    height: 30px;
+    border-radius: 15px 15px;
+}
+form span a{
+    margin: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+form span a:hover{
+    color: darkolivegreen;
+}
+.logowanie{
+    margin-bottom: 15px;
+    margin-top:-20px;
+}
+form #login_bar{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    transition: .5s;
+    font-weight: bold;
+    margin-bottom:10px;
+    height:40px;
+}
+form #login_bar:hover{
+    transition: .5s;
+    background-color:  rgba(233, 150, 122, 85%);
+    color: white;
+    cursor: pointer;
+
+}
+.pomocny_spam{
+    width:70%;
+    margin:auto;
+    text-align:left;
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .cont .res{
+        float:left;
+        width: 94%;
+        height: 174px;
+        border-radius: 20px;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+        border: 3px solid darkolivegreen 
+    }
+    .cont #resCont .res img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cont #resCont .res img {
+        width: 45%;
+    }
+
+    form {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .cont #header nav {
+        height: 180px;
+        text-align: center;
+    }
+
+    .cont #header {
+        height: 180px;
+    }
+
+    .cont #header nav button {
+        margin: auto;
+        width: 75%;
+        height: 35%;
+        display: block;
+    }
+
+    .cont #header nav img {
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    form {
+        width: 75%;
+        margin-top: 55px;
+    }
+}  
