@@ -15,7 +15,7 @@ Część 2: Tworzenie pierwszego projektu w Qt Designer
 
 Po włączeniu wyświetla nam się takie okno
 
-![okno1](../md1.png)
+![okno1](md1.png)
 
 Pozwala nam ono wybrać podstawowe szablony. Po wciśnięciu "Utwórz" mamy stworzony projekt,
 który możemy edytować.
