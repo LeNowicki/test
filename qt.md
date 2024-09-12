@@ -15,13 +15,22 @@ Część 2: Tworzenie pierwszego projektu w Qt Designer
 
 Po włączeniu wyświetla nam się takie okno
 
-![okno1](md1.png)
 
 Pozwala nam ono wybrać podstawowe szablony. Po wciśnięciu "Utwórz" mamy stworzony projekt,
 który możemy edytować.
 
+![okno1](md1.png)
 
 By dodać element do naszego szablonu wystarczy przeciągnąć go z lewej listy na nasz projekt
 
+![okno1](md2.png)
 
+By zapisać nasz projekt. Wciskamy przycisk "Zachowaj" umieszczony w menu "Plik" (można
+również zastosować skrót Ctrl+S)
+
+![okno1](md3.png)
+
+Część 3: Eksportowanie pliku QML
+
+Nie ma takiej możliwości w zakładce "File"
 
