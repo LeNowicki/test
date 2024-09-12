@@ -23,14 +23,15 @@ który możemy edytować.
 
 By dodać element do naszego szablonu wystarczy przeciągnąć go z lewej listy na nasz projekt
 
-![okno1](md2.png)
+![okno2](md2.png)
 
 By zapisać nasz projekt. Wciskamy przycisk "Zachowaj" umieszczony w menu "Plik" (można
 również zastosować skrót Ctrl+S)
 
-![okno1](md3.png)
+![okno3](md3.png)
 
 Część 3: Eksportowanie pliku QML
 
 Nie ma takiej możliwości w zakładce "File"
 
+![okno4](md4.png)
